@@ -1,42 +1,42 @@
 # csvkit commands
-### https://csvkit.readthedocs.io/en/1.0.1/cli.html
+### https://csvkit.readthedocs.io
 
-# csvcut -- filter csv files
+# `csvcut`: Filter CSV files
 
-### see the data
+### See the data
 `csvcut us_counties_2010.csv`
 
-### see csv schema
+### See CSV schema
 `csvcut -n us_counties_2010.csv`
 
-### retrieve first three columns
+### Retrieve first three columns ...
 `csvcut -c 1-3 us_counties_2010.csv`
 
-### or cherry-pick columns
+### ... or cherry-pick columns
 `csvcut -c 1,2,10 us_counties_2010.csv`
 
-# csvgrep -- search csv files
+# `csvgrep`: Search CSV files
 
-### find counties whose names begin with "Mill"
+### Find counties whose names begin with "Mill"
 `csvgrep -c 1 -m "Mill" us_counties_2010.csv`
 
 ### Use regex
 `csvgrep -c 1 -r "T.y" us_counties_2010.csv`
 
-# csvjson -- output json from a csv
+# `csvjson`: Output JSON from a CSV
 
-### pip your output into JSON
-`csvcut -c 1,2,10 us_counties_2010.csv | csvjson -i 4`
+### Pipe your output to JSON
+`csvcut -c 1,2,10 us_counties_2010.CSV | csvjson -i 4`
 
-# csvstat -- get stats from csv files
+# csvstat: Generate stats from CSV files
 
-### stats on all your columns
+### Stats on all your columns
 `csvstat us_counties_2010.csv`
 
 ### For just one column
 `csvstat -c 4 us_counties_2010.csv`
 
-# csvsql -- build table definitions and load data
+# `csvsql`: Build table definitions and load data
 
 ### Get a SQL table statement
 `csvsql -i postgresql us_counties_2010.csv`
