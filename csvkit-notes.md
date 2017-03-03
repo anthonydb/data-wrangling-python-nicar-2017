@@ -45,5 +45,5 @@
 `csvsql -i postgresql --no-inference us_counties_2010.csv`
 
 ### Load a CSV straight into a PostgreSQL database
-```createdb testing
-csvsql --db postgresql:///testing --table us_counties_2010 --no-inference --insert us_counties_2010.csv```
+`createdb testing`
+`csvsql --db postgresql:///testing --table us_counties_2010 --no-inference --insert us_counties_2010.csv`
