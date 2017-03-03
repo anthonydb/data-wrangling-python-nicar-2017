@@ -1,5 +1,5 @@
-# csvkit commands
-### https://csvkit.readthedocs.io
+# Sample csvkit commands
+### Docs: https://csvkit.readthedocs.io
 
 # `csvcut` Filter CSV files
 
