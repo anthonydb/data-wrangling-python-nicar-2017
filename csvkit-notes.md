@@ -46,4 +46,5 @@
 
 ### Load a CSV straight into a PostgreSQL database
 `createdb testing`
+
 `csvsql --db postgresql:///testing --table us_counties_2010 --no-inference --insert us_counties_2010.csv`
