@@ -7,7 +7,7 @@ The code covers basic import, transformation, and export of data from CSV files.
 This code was written and taught on MacOS Sierra using Python 3.6; it should work fine on Python 2.7 as well as Python 3.5+. It's not been tested on Windows. I recommend setting up a [virtual environment](http://docs.python-guide.org/en/latest/dev/virtualenvs/) and then installing the following dependencies:
 - [Jupyter Notebook](http://jupyter.readthedocs.io/en/latest/install.html)
 - [Requests](http://docs.python-requests.org/en/master/user/install/)
-- [Agate](http://agate.readthedocs.io/)
+- [agate](http://agate.readthedocs.io/)
 - [csvkit](https://csvkit.readthedocs.io)
 
 Here are the steps:
@@ -51,3 +51,14 @@ Here are the steps:
 ## Trying csvkit Commands
 
 You can run the commands in the file [csvkit-notes.md](https://github.com/anthonydb/data-wrangling-python-nicar-2017/blob/master/csvkit-notes.md) in your terminal. Make sure the virtual environment is activated.
+
+## Notes and Further Reading
+
+This NICAR 2017 hands-on class was loosely inspired by the structure of a [NICAR 2016 class](https://github.com/aepton/python-data-wrangling) taught by Jacqueline Kazil and Abraham Epton.
+
+Suggested resources to learn more about Python and data:
+
+- [CSV File Reading and Writing: Python docs](https://docs.python.org/3/library/csv.html)
+- [JSON encoder and decoder: Python docs](https://docs.python.org/3/library/json.html)
+- [The Hickhiker's Guide to Python](http://docs.python-guide.org/en/latest/)
+- [Data Wrangling With Python](http://shop.oreilly.com/product/0636920032861.do) by Jacqueline Kazil and Katharine Jarmul
