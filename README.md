@@ -1,4 +1,4 @@
-# data-wrangling-python-nicar-2017
+# Data Wrangling With Python: NICAR 2017
 This repository contains materials for "Data Wrangling With Python," a hands-on session presented at the 2017 Investigative Reporters and Editors NICAR conference in Jacksonville, Fla.
 
 The code covers basic import, transformation, and export of data from CSV files. Output formats include JSON and SQL table creation statements.
