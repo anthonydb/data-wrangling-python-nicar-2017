@@ -10,27 +10,44 @@ This code was written and taught on MacOS Sierra using Python 3.6; it should wor
 - [Agate](http://agate.readthedocs.io/)
 - [csvkit](https://csvkit.readthedocs.io)
 
-## Getting Started
-Once you have installed the dependencies, you can get started! Follow these steps:
- 1. Download this repository and save it to your Desktop.
- <img src="readme-assets/readme_screenshot_00.jpg" alt="jupyter screenshot" />
+Here are the steps:
 
- 2. Open your terminal and navigate to this folder:
+## Setup for Jupyter Notebook Exercises
 
- ``cd Desktop/data-wrangling-python-nicar-2017``
- 3. Set up your virtual environment. We'll call it 'nicar':
+ 1. Open your terminal and navigate to the Desktop:
+
+ `cd ~/Desktop`
+
+ 2. Clone this repository:
+
+ `git clone https://github.com/anthonydb/data-wrangling-python-nicar-2017.git`
+
+ 3. Change to the project directory you just cloned:
+
+ `cd data-wrangling-python-nicar-2017/`
+
+ 4. Set up your virtual environment. We'll call it 'nicar':
 
  ``virtualenv nicar``
+
  ``source nicar/bin/activate``
 
- 4. Now you can run Jupyter Notebook:
+ 5. Install your dependencies:
+
+ `pip install agate csvkit jupyter`
+
+ 6. Now you can run Jupyter Notebook:
 
  ``jupyter notebook``
 
- 5. Jupyter Notebook will open in your default browser on ``localhost:8888``. Create a new notebook using the dropdown menu on the right (python 2 or 3 should work):
+ 7. Jupyter Notebook will open in your default browser on ``localhost:``, and you will see a list of files in the directory. The most important file for this exercise is the Census 2010 data contained in `us_counties_2010.csv`.
 
- <img src="readme-assets/readme_screenshot_1.jpg" alt="jupyter screenshot" />
+ 8. Next, using the "New" menu at the top right of the Jupyter Notebook app, create a new notebook matching the version of Python on your system.
 
- 6. Now you can open up the .ipynb file in this project and paste in the code!
+ 9. Now, you can paste in the code found in the .ipynb file in this repository and run it to follow the tutorial.
 
- 7. When you're done, run ``ctrl+c`` to close Jupyter Notebook. Then ``deactivate`` to exit your virtual environment.
+ 10. When you're done, run ``ctrl+c`` in the terminal to close Jupyter Notebook. Then ``deactivate`` to exit your virtual environment.
+
+## Trying csvkit Commands
+
+You can run the commands in the file [csvkit-notes.md](https://github.com/anthonydb/data-wrangling-python-nicar-2017/blob/master/csvkit-notes.md) in your terminal. Make sure the virtual environment is activated.
