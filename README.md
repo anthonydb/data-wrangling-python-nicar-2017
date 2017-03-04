@@ -34,7 +34,7 @@ Here are the steps:
 
  5. Install your dependencies:
 
- `pip install agate csvkit jupyter`
+ `pip install agate csvkit requests jupyter`
 
  6. Now you can run Jupyter Notebook:
 
